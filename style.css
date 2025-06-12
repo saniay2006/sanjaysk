@@ -1,0 +1,59 @@
+  .line{
+                    background-color: rgb(115, 206, 107);
+              }
+              h1{
+                  background-color: chocolate;
+              }
+              .parent p{
+                color: burlywood;
+              }
+              
+              p:hover{
+                color: rgb(255, 0, 119);
+              }
+                  
+        
+.border{
+    border: 2px solid black;
+    padding-left: 50px;
+    border-radius: 20px;
+    border-style: dotted;
+}
+.margin{
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.margin1{
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.static{
+    position: static;
+}
+.position{
+        border: 3px solid rgb(197, 8, 8);
+}
+.relative{
+    position: absolute;
+    top: 50px;
+}
+.page{
+    height: 100vh;
+}
+.fixed{
+    position: fixed;
+    top: 100px;
+}
+.sticky{
+     position: sticky;
+     top: 50px;
+}
+.inline{
+        display: flex;
+}
+.item{
+    background-color: cornflowerblue;
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+}
