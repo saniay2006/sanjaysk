@@ -90,30 +90,3 @@
     background-color: bisque;
     border: 2px solid rgb(231, 43, 43);
 }
-.grid-container1{
-    display:grid;
-    grid-template-rows: 100px 100px 100px;
-    grid-template-columns: 100px 100px 100px 100px;
-    gap: 10px
-}
-.grid-container1 div{
-    background-color:coral;
-    border: 2px solid red;
-}
-.item4{
-    grid-column-start: 1;
-    grid-column-end: 5;
-}
-.item5{
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-.item6{
-    grid-column-start: 4;
-}
-.item7{
-    grid-column-start: 1;
-    grid-column-end: 5;
-}
-
-     
