@@ -93,8 +93,8 @@
 .grid-container1{
     display:grid;
     grid-template-rows: 100px 100px 100px;
-    grid-template-columns: 100px 100px 100px;
-    gap: 20px
+    grid-template-columns: 100px 100px 100px 100px;
+    gap: 10px
 }
 .grid-container1 div{
     background-color:coral;
@@ -115,8 +115,6 @@
     grid-column-start: 1;
     grid-column-end: 5;
 }
-.item8{
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
-     
+
+
+  

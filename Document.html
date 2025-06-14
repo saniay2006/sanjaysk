@@ -1,38 +1,33 @@
 <!DOCTYPE html>
-<!-- saved from url=(0034)http://127.0.0.1:5500/display.html -->
+<!-- saved from url=(0031)http://127.0.0.1:5500/rock.html -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./Document_files/style.css">
 </head>
-<body> <div>
-    <h2 clss="inline">same</h2>
-    <h2 clss="inline">line</h2>
-</div>
-<div class="flex-container"><br>
-    <div class="item">1.shevak</div>
-    <div class="item">2.dheena</div>
-    <div class="item">3.ganguli</div>
-    <div class="item">4.pathir</div> 
-</div>
-<div class="grid-container">
-        <div class="item">1.ronaldo</div>
-        <div class="item">2.mesi</div>
-        <div class="item">3.vijay</div>
-        <div class="item">4.elango</div>
-        <div class="item">5</div>
-        <div class="item">6</div>
-        <div class="item7">7</div>
-    </div><br>
-    <div class="grid-container1">
-         <div class="item4">Header</div>
-         <div class="item5">main</div>
-         <div class="item6">empty</div>
-         <div class="item7">sidebar</div>
-         <div class="item8">footer</div>
-         
-    </div>
+<body>
+   <h1 id="result"></h1>
+   <button oneclick="game(&#39;rock&#39;)">Rock</button>
+   <button oneclick="game(&#39;paper&#39;)">paper</button>
+   <button oneclick="game(&#39;scissor&#39;)">scissor</button>
+     <h1 id="result"></h1>
+   <script>
+     function game(user) {
+         const choices = ['rock', 'paper', 'scissor'];
+         let computer=choices=[Math.floor.(Math.random()*3)]
+         let result=
+         if(user===computer)[
+            result< `It's draw| $ {computer} eats ${user}`
+         ]
+         else if(user==='rock' && computer==='scissor')||
+                (user==='paper' && computer==='rock')||
+                (user==='scissor' && computer==='paper'){
+             `result = `you won| ${user} beats ${computer}`
+         }
+        else {
+        result = `You lose| ${computer} beats ${user}`
+        }
+   </script>
 <!-- Code injected by live-server -->
 <script>
 	// <![CDATA[  <-- For SVG support
